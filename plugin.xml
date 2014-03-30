@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.workbench.texteditor.spellingEngine">
+      <engine
+            class="languagetool.spellcheck.Engine"
+            default="true"
+            id="LanguageTool.engine"
+            label="LanguageTool"
+            preferencesClass="languagetool.preferences.PreferencesPage">
+      </engine>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="languagetool.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+
+</plugin>

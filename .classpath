@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libs/cjftransform.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-cli.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-lang.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/hamcrest-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/hppc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/hunspell-native-libs.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/ictclas4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jna.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jwordsplitter.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-core-tests.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-gui-commons.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/lucene-gosen-ipadic.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-fsa.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-polish.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-speller.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opennlp-chunk-models.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opennlp-maxent.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opennlp-postag-models.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opennlp-tokenize-models.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/opennlp-tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/tika-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-stemming.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/segment.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-standalone.jar" sourcepath="/home/foloex/workspace/languagetool/languagetool-language-modules/fr/src/main/java"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-core.jar" sourcepath="/home/foloex/workspace/languagetool/languagetool-core/src/main/java">
+		<attributes>
+			<attribute name="javadoc_location" value="https://languagetool.org/development/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry excluding="preferences/PreferenceConstants.java|preferences/PreferenceInitializer.java|preferences/SamplePreferencePage.java|languagetool/preferences/SamplePreferencePage.java" kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
