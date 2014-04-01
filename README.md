@@ -1,7 +1,8 @@
 languagetool-eclipse-plugin
 ===========================
 
-Eclipse plugin providing grammar checking using LanguageTool
+Eclipse plugin providing grammar checking using LanguageTool.
+LanguageTool official website is https://languagetool.org/
 
 ## Presentation
 
