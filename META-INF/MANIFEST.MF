@@ -39,3 +39,4 @@ Bundle-ClassPath: .,
  libs/opennlp-tokenize-models.jar,
  libs/opennlp-tools.jar,
  libs/tika-core.jar
+Bundle-Vendor: Rémi AUGUSTE
