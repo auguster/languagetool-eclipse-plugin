@@ -23,5 +23,6 @@ Onces the export is done the provided jar can be copied into the plugins/ folder
 The (few) options can be access through the menu: Window -> Preferences -> General -> Editors -> Text Editors -> Spelling
 
 ## Install Only
-You can also download the file LanguageTool-Plugin.zip that contains de built plugin.
+You can also download the file [LanguageTool-Plugin.zip](https://github.com/auguster/languagetool-eclipse-plugin/blob/master/LanguageTool-Plugin.zip?raw=true) that contains de built plugin.
+
 Copy the extracted content to your Eclipse install folder.
