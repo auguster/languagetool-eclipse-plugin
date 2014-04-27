@@ -21,3 +21,7 @@ It also extends org.eclipse.core.runtime.preferences in order to remember the pa
 Onces the export is done the provided jar can be copied into the plugins/ folder of your Eclipse install
 
 The (few) options can be access through the menu: Window -> Preferences -> General -> Editors -> Text Editors -> Spelling
+
+## Install Only
+You can also download the file LanguageTool-Plugin.zip that contains de built plugin.
+Copy the extracted content to your Eclipse install folder.
