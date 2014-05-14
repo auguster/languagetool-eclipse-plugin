@@ -8,4 +8,5 @@
   	<version>1.0.0-SNAPSHOT</version>
   	<relativePath>../cx.ath.remisoft.languagetool.master</relativePath>
   </parent>
+  <name>Tycho build for the Language Tool Eclipse plugin</name>
 </project>
