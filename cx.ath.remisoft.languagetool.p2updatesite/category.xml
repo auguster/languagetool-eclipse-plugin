@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/cx.ath.remisoft.languagetool.feature_1.0.0.qualifier.jar" id="cx.ath.remisoft.languagetool.feature" version="1.0.0.qualifier">
+      <category name="cx.ath.remisoft.languagetool.p2updatesite"/>
+   </feature>
+   <category-def name="cx.ath.remisoft.languagetool.p2updatesite" label="Language Tool"/>
+</site>
