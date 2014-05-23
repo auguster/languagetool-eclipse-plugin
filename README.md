@@ -1,8 +1,7 @@
 languagetool-eclipse-plugin
 ===========================
 
-Eclipse plugin providing grammar checking using LanguageTool.
-LanguageTool official website is https://languagetool.org/
+Eclipse plugin providing grammar checking using [LanguageTool](https://languagetool.org).
 
 ## Presentation
 
@@ -11,12 +10,12 @@ The org/ folder of the standalone version of languagetool has been package into 
 
 The whole repository is an Eclipse Plugin project that can be imported directly into Eclipse for modification.
 
-## Extension
+## Extension
 
 The plugin provide an extension for org.eclipse.ui.workbench.texteditor.spellingEngine to provide Eclipe wide grammar checking in the various editors.
 It also extends org.eclipse.core.runtime.preferences in order to remember the parameters.
 
-## How to run
+## How to run
 
 Onces the export is done the provided jar can be copied into the plugins/ folder of your Eclipse install
 
@@ -24,13 +23,13 @@ The (few) options can be access through the menu: Window -> Preferences -> Gener
 
 ## Install Only
 
-You can also download the file [LanguageTool-Plugin.zip](https://github.com/auguster/languagetool-eclipse-plugin/blob/master/LanguageTool-Plugin.zip?raw=true) that contains the built plugin.
+You can also download the file [cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar](https://build.vogella.com/ci/job/C-MASTER-Eclipse-LanguageTool/lastSuccessfulBuild/artifact/cx.ath.remisoft.languagetool/target/cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar) that contains the built plugin.
 
 Copy the extracted content to your Eclipse install folder.
 
 ## How to build the project with maven
 
-First of all you have to ensure that you have installed Maven3 properly.
+First of all you have to ensure that you have installed Maven 3 properly.
 See http://maven.apache.org/download.html#Installation  for further information.
 
 In order to build a certain project you can use the Console or Terminal, go into the project folder and then call `mvn clean verify`. In case you build the cx.ath.remisoft.languagetool.master project all projects will be build.
@@ -44,6 +43,7 @@ Example:
 
 If you want to make your project available as an update-site on a certain ftp server, you have to add the following to the *pom.xml* file in the cx.ath.remisoft.languagetool.p2updatesite project:
 
+```xml
 	<build>
 	  <extensions>
 	   <!-- Enabling the use of FTP -->
@@ -97,9 +97,11 @@ If you want to make your project available as an update-site on a certain ftp se
 	   </build>
 	  </profile>
 	</profiles>
-	
+```
+
 And in your maven settings.xml you can store your login information for the server.
 
+```xml
 	<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
 	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
@@ -115,8 +117,9 @@ And in your maven settings.xml you can store your login information for the serv
 	  <proxies/>
 	  <profiles/>
 	  <activeProfiles/>
-	</settings> 
-	
+	</settings>
+```
+
 I put those information, which you need to define in {brackets} and explained them inside those {brackets}.
 
 In order to run a build and upload the update-site just need to run the `mvn install -P uploadRepoProfileId` command on the command line.
