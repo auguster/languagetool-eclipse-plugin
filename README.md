@@ -24,7 +24,7 @@ The (few) options can be access through the menu: Window -> Preferences -> Gener
 
 ## Install Only
 
-You can also download the file [LanguageTool-Plugin.zip](https://github.com/auguster/languagetool-eclipse-plugin/blob/master/LanguageTool-Plugin.zip?raw=true) that contains the built plugin.
+You can also download the file [cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar](https://build.vogella.com/ci/job/C-MASTER-Eclipse-LanguageTool/lastSuccessfulBuild/artifact/cx.ath.remisoft.languagetool/target/cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar) that contains the built plugin.
 
 Copy the extracted content to your Eclipse install folder.
 
