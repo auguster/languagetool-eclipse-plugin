@@ -3,7 +3,7 @@ languagetool-eclipse-plugin
 
 Eclipse plugin providing grammar checking using [LanguageTool](https://languagetool.org).
 
-## Presentation
+# Presentation
 
 This plugin contains all of LanguageTool and its dependencies (hence the size).
 The org/ folder of the standalone version of languagetool has been package into a jar file called languagetool-standalone.jar and placed into libs
@@ -12,8 +12,16 @@ The whole repository is an Eclipse Plugin project that can be imported directly 
 
 ## Extension
 
-The plugin provide an extension for org.eclipse.ui.workbench.texteditor.spellingEngine to provide Eclipe wide grammar checking in the various editors.
-It also extends org.eclipse.core.runtime.preferences in order to remember the parameters.
+The plugin provide an extension for `org.eclipse.ui.workbench.texteditor.spellingEngine` to provide Eclipe wide grammar checking in the various editors.
+It also extends `org.eclipse.core.runtime.preferences` in order to remember the parameters.
+
+# Get it
+
+## Install a pre-compiled JAR
+
+You can also download the file [cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar](https://build.vogella.com/ci/job/C-MASTER-Eclipse-LanguageTool/lastSuccessfulBuild/artifact/cx.ath.remisoft.languagetool/target/cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar) that contains the built plugin.
+
+Copy the extracted content to your Eclipse install folder.
 
 ## How to run
 
@@ -21,25 +29,30 @@ Onces the export is done the provided jar can be copied into the plugins/ folder
 
 The (few) options can be access through the menu: Window -> Preferences -> General -> Editors -> Text Editors -> Spelling
 
-## Install Only
+# Build it
 
-You can also download the file [cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar](https://build.vogella.com/ci/job/C-MASTER-Eclipse-LanguageTool/lastSuccessfulBuild/artifact/cx.ath.remisoft.languagetool/target/cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar) that contains the built plugin.
+## Get the dependencies and build with Maven
 
-Copy the extracted content to your Eclipse install folder.
+Go to https://languagetool.org/download/snapshots/ and download a recent ZIP file.
+Unzip it and move all JAR files into the `cx.ath.remisoft.languagetool/libs` folder.
+Zip the rest of the folder as `languagetool-standalone.jar` and also place it into the `cx.ath.remisoft.languagetool/libs` folder.
 
-## How to build the project with maven
+Next, you have to ensure that you have installed Maven 3 properly.
+See http://maven.apache.org/download.html#Installation for further information.
 
-First of all you have to ensure that you have installed Maven 3 properly.
-See http://maven.apache.org/download.html#Installation  for further information.
-
-In order to build a certain project you can use the Console or Terminal, go into the project folder and then call `mvn clean verify`. In case you build the cx.ath.remisoft.languagetool.master project all projects will be build.
+In order to build a certain project you can use the console: go into the project folder and then call `mvn clean verify`.
+In case you build the cx.ath.remisoft.languagetool.master project all projects will be build.
 
 Example:
 
-	cd [...]\YourGitRepo\cx.ath.remisoft.languagetool.master
+```bash
+cd cx.ath.remisoft.languagetool.master
+mvn clean verify
+```
 
-	mvn clean verify
-	
+The whole process is automatized in the Linux shell script `./build.sh` which can find in the root folder.
+
+## Create and upload a P2 update site.
 
 If you want to make your project available as an update-site on a certain ftp server, you have to add the following to the *pom.xml* file in the cx.ath.remisoft.languagetool.p2updatesite project:
 

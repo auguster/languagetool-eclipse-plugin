@@ -3,12 +3,12 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src/"/>
-	<classpathentry exported="true" kind="lib" path="libs/languagetool-core.jar" sourcepath="/home/foloex/workspace/languagetool/languagetool-core/src/main/java">
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-core.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="https://languagetool.org/development/api/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="libs/languagetool-standalone.jar" sourcepath="/home/foloex/workspace/languagetool/languagetool-language-modules/fr/src/main/java"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-standalone.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/commons-logging.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/morfologik-stemming.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/segment.jar"/>
