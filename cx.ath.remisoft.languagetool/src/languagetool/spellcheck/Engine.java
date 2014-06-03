@@ -37,7 +37,6 @@ import org.eclipse.ui.texteditor.spelling.ISpellingProblemCollector;
 import org.eclipse.ui.texteditor.spelling.SpellingContext;
 import org.languagetool.JLanguageTool;
 import org.languagetool.Language;
-import org.languagetool.language.French;
 import org.languagetool.rules.RuleMatch;
 
 public class Engine implements ISpellingEngine {
