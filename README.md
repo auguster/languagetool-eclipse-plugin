@@ -23,6 +23,14 @@ You can also download the file [cx.ath.remisoft.languagetool-1.0.0-SNAPSHOT.jar]
 
 Copy the extracted content to your Eclipse install folder.
 
+## Eclipse p2 Update Site
+
+Alternatively, you can install it via the following repository: 
+
+```
+http://download.vogella.com/p2/C-MASTER-Eclipse-LanguageTool/workspace/cx.ath.remisoft.languagetool.p2updatesite/target/repository/
+```
+
 ## How to run
 
 Onces the export is done the provided jar can be copied into the plugins/ folder of your Eclipse install
