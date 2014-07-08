@@ -14,13 +14,13 @@ YESTERDAY=`date --date="-1 days" +%Y%m%d`
 wget https://languagetool.org/download/snapshots/LanguageTool-$YESTERDAY-snapshot.zip
 unzip LanguageTool-$YESTERDAY-snapshot.zip
 rm LanguageTool-$YESTERDAY-snapshot.zip
-pushd LanguageTool-2.6-SNAPSHOT
+pushd LanguageTool-2.7-SNAPSHOT
 	mv libs ../cx.ath.remisoft.languagetool/
 	mv *.jar ../cx.ath.remisoft.languagetool/libs
 	zip -r languagetool-standalone.jar *
 	mv languagetool-standalone.jar ../cx.ath.remisoft.languagetool/libs
 popd
-rm -rf LanguageTool-2.6-SNAPSHOT
+rm -rf LanguageTool-2.7-SNAPSHOT
 
 pushd cx.ath.remisoft.languagetool.master
 	mvn clean verify
