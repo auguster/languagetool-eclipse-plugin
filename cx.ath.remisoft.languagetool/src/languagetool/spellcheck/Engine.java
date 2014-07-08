@@ -67,6 +67,8 @@ public class Engine implements ISpellingEngine {
 		try {
 			jlt = new JLanguageTool(language);
 			jlt.activateDefaultPatternRules();
+			jlt.disableRule("COMMA_PARENTHESIS_WHITESPACE");
+			jlt.disableRule("EN_QUOTES");
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
