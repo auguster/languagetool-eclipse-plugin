@@ -35,7 +35,7 @@ http://download.vogella.com/p2/C-MASTER-Eclipse-LanguageTool/workspace/cx.ath.re
 
 Onces the export is done the provided jar can be copied into the plugins/ folder of your Eclipse install
 
-The (few) options can be access through the menu: Window -> Preferences -> General -> Editors -> Text Editors -> Spelling
+The (few) options can be access through the menu: _Window_ → _Preferences_ → _General_ → _Editors_ → _Text Editors_ → _Spelling_
 
 # Build it
 
@@ -62,7 +62,7 @@ The whole process is automatized in the Linux shell script `./build.sh` which ca
 
 ## Create and upload a P2 update site.
 
-If you want to make your project available as an update-site on a certain ftp server, you have to add the following to the *pom.xml* file in the cx.ath.remisoft.languagetool.p2updatesite project:
+If you want to make your project available as an update-site on a certain FTP server, you have to add the following to the *pom.xml* file in the _cx.ath.remisoft.languagetool.p2updatesite project_:
 
 ```xml
 	<build>
@@ -120,7 +120,7 @@ If you want to make your project available as an update-site on a certain ftp se
 	</profiles>
 ```
 
-And in your maven settings.xml you can store your login information for the server.
+And in your maven *settings.xml* you can store your login information for the server.
 
 ```xml
 	<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
@@ -141,6 +141,6 @@ And in your maven settings.xml you can store your login information for the serv
 	</settings>
 ```
 
-I put those information, which you need to define in {brackets} and explained them inside those {brackets}.
+You need to replace the placeholders in `{brackets}` with your own configuration.
 
 In order to run a build and upload the update-site just need to run the `mvn install -P uploadRepoProfileId` command on the command line.
