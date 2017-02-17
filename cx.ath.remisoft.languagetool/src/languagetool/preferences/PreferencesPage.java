@@ -33,6 +33,7 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.ui.texteditor.spelling.IPreferenceStatusMonitor;
 import org.eclipse.ui.texteditor.spelling.ISpellingPreferenceBlock;
 import org.languagetool.Language;
+import org.languagetool.Languages;
 
 public class PreferencesPage implements ISpellingPreferenceBlock {
 	
@@ -50,7 +51,7 @@ public class PreferencesPage implements ISpellingPreferenceBlock {
 		label.setText("LanguageTool Options");
 				
 		this.language = new Combo(inner, SWT.CENTER);
-		for (Language lang : Language.getAllLanguages())
+		for (Language lang : Languages.get())
 		{
 			language.add(lang.getName());
 		}

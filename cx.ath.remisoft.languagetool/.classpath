@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry kind="src" path="src/"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="lib" path="libs/languagetool-core.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="https://languagetool.org/development/api/"/>
@@ -24,14 +24,40 @@
 	<classpathentry exported="true" kind="lib" path="libs/languagetool-gui-commons.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/lucene-gosen-ipadic.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/morfologik-fsa.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/morfologik-polish.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/morfologik-speller.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/morfologik-tools.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/opennlp-chunk-models.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/opennlp-maxent.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/opennlp-postag-models.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/opennlp-tokenize-models.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/opennlp-tools.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/tika-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/berkeleylm.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/catalan-pos-dict.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-collections4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-io.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-lang3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/german-pos-dict.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/guava.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/hamcrest-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/icu4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-databind.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jcommander.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jsonic.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/junit.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/language-detector.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-commandline.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-server.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool-tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/languagetool.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/lucene-backward-codecs.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/lucene-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-fsa-builders.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morfologik-ukrainian.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/morphology-el.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/openregex.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/slf4j-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/slf4j-nop.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
