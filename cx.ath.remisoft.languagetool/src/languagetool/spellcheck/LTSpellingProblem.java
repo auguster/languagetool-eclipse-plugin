@@ -38,7 +38,7 @@ public class LTSpellingProblem extends SpellingProblem {
 
 	@Override
 	public int getOffset() {
-		return ruleMatch.getOffset();
+		return ruleMatch.getFromPos();
 	}
 
 	@Override
